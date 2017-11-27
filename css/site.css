@@ -5,13 +5,14 @@ body {
 	line-height: 1.5;
 }
 
-h1, h2 {
+h1,
+h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 .titulo-principal {
 	text-align: center;
-	background-color: #851944;
+	background-color: rgb(66, 109, 189);
 	color: #FFF;
 	padding: 25px;
 	border-bottom: 10px solid black;
@@ -34,7 +35,7 @@ blockquote {
 
 .navegacao-site {
 	text-align: center;
-	background-color: #3C1D3D;
+	background-color: rgb(66, 109, 189);
 	color: #F2FFFC;
 }
 
@@ -45,7 +46,7 @@ blockquote {
 }
 
 main a {
-	color: #851944;
+	color: #5258b1;
 }
 
 .navegacao-site a {
@@ -53,7 +54,9 @@ main a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-.citacao-bio, .navegacao-site, .rodape {
+.citacao-bio,
+.navegacao-site,
+.rodape {
 	padding: 20px;
 }
 
@@ -85,21 +88,6 @@ em {
 	display: inline-block;
 }
 
-.artigo {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
-}
-
-.leia-mais {
-	padding: 8px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
 nav a {
 	text-transform: lowercase;
 }
@@ -112,58 +100,48 @@ nav a {
 }
 
 .github {
-	background-image: url(github.png);
+	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/github.png);
 }
 
 .twitter {
-	background-image: url(twitter.png);
+	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/twitter.png);
 }
 
 .linkedin {
-	background-image: url(in.png);
-}
-
-.fiat {
-	float: right;
-}
-
-.petrobras {
-	float: left;
+	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/in.png);
 }
 
 main {
 	float: left;
 	width: 85%;
-	 padding-bottom: 80px;
+	padding-bottom: 80px;
 }
 
-.minha-foto, .navegacao-site {
+.minha-foto,
+.navegacao-site {
 	float: right;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
 }
-.minha-foto{
-	width: 300px;
+
+.minha-foto {
+	width: 250px;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
-.navegacao-site{
-    width: 15%;
-    position: relative;
-    top: 391px;
-}
 
-cite {
-	font-style: italic;
-	float: right;
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 325px;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
