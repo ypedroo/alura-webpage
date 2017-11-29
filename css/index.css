@@ -38,8 +38,8 @@
     color: #FFF;
     padding: .5em;
     border: .2em solid black;
-    width: 40ch;
-    margin: 2em auto;
+    width: 35ch;
+    margin: 4em auto;
     display: block;
     text-align: center;
 }
@@ -81,9 +81,9 @@
 }
 
 .blog {
-    background-color: #999;
+    background-color: rgb(132, 157, 194);
     color: #FFF;
-    border-bottom: .5em solid #851944;
+    border-bottom: .5em solid #197a72;
 }
 
 .blog small {
@@ -92,7 +92,7 @@
 }
 
 .blog li a {
-    color: #FCF;
+    color: rgb(37, 29, 37);
     padding: .5em;
     display: block;
 }
@@ -100,7 +100,7 @@
 footer {
     background-color: #000;
     color: #FFF;
-    padding: 1em;
+    padding: .3em;
 }
 
 footer h2 {
@@ -108,7 +108,7 @@ footer h2 {
 }
 
 footer a {
-    color: #F99;
+    color: rgb(115, 238, 187);
 }
 
 main {
