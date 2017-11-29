@@ -42,9 +42,15 @@ blockquote {
 }
 
 .rodape {
-	background-color: #000;
-	color: #F2FFFC;
-	clear: both;
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 1em;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 main a {
@@ -141,10 +147,3 @@ main {
 	top: 325px;
 }
 
-footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	box-sizing: border-box;
-}
