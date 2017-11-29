@@ -97,20 +97,21 @@ nav a {
 .icones-sociais a {
 	width: 40px;
 	height: 40px;
-	display: inherit;
-	text-indent: -99999px;
+	display: block;
+	text-indent: -9999px;
 }
-
+/* put the img on the css folder just to work it out organize later
+when the right adress is found*/
 .github {
-	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/github.png);
+	background-image: url(github.png);
 }
 
 .twitter {
-	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/twitter.png);
+	background-image: url(twitter.png);
 }
 
 .linkedin {
-	background-image: url(/home/ypedro/Projetos/Alura/html_css/alurahtmlcss/img/in.png);
+	background-image: url(in.png);
 }
 
 main {
