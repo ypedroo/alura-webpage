@@ -186,19 +186,22 @@
     top: -2em;
 }
 
+.blog li{
+    width: 30%;
+}
+
 .blog li a {
     color: rgb(37, 29, 37);
     padding: .5em;
-    width: 30%;
     display: block;
 }
 
 .blog .mais-recente {
-    background-color: rgb(198, 233, 225);
+    background-color: #F2FFFC;
 }
 
 .blog .mais-recente a {
-    color: #F26;
+    color: rgb(6, 17, 119);
 }
 
 footer {
