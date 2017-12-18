@@ -9,66 +9,86 @@
     position: absolute;
     top: 20%;
     left: 75%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .boas-praticas {
     position: absolute;
     top: 17%;
     right: 10%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .codigo-limpo {
     position: absolute;
     top: 65%;
     right: 78%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .css3 {
     position: absolute;
     top: 23%;
     left: 23%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 .html5 {
     position: absolute;
     top: 69%;
     left: 69%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .javascript {
     position: absolute;
     top: 20%;
     right: 90%;
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 .acessibilidade {
     position: absolute;
     top: 40%;
-    left: 12%
+    left: 12%;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 
 .responsivo {
     position: absolute;
     top: 23%;
-    right: 30%;
+    right: 30%; -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
 }
 
 .otimizacoes {
     position: absolute;
     top: 32%;
-    left: 32%
+    left: 32%;
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
 }
 
 .agilidade {
     position: absolute;
     top: 86%;
     right: 12%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .design {
     position: absolute;
     top: 40%;
-    left: 75%;
+    left: 75%; -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 .inicio-post {
@@ -106,7 +126,7 @@
 
 .saudacao-ultima-linha {
     text-align: right;
-    display: block;
+    display: inline;
 }
 
 .saudacao strong {
@@ -116,7 +136,9 @@
 
 .saudacao em {
     color: #17378d;
-    font-size: 4em;
+    font-size: 3em;
+    display: inline-block;
+    transform : rotate(-5deg) skew(-10deg);
 }
 
 .botao-index {
