@@ -1,48 +1,62 @@
 body {
-	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #F2FFFC;
-	font-size: 120%;
-	line-height: 1.5;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
 }
 
 h1,
-h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+h2,
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
 
 .titulo-principal {
-	text-align: center;
-	background-color: rgb(66, 109, 189);
-	color: #FFF;
-	padding: 2rem;
-	border-bottom: .5rem solid black;
-	font-size: 300%;
-	text-transform: uppercase;
-	position: relative;
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 2rem;
+    border-bottom: .5rem solid #000;
 }
 
-p {
-	text-align: justify;
-	margin: 20px 0;
+.subtitulo-texto {
+    font-size: 1.5em;
+    clear: both;
 }
 
-blockquote {
-	background-color: #D9E5E3;
-    border: .5em solid #C2CCCA;
-    padding: 1em;
-    margin: 1em 2em;
-    width: 30ch;
-    box-sizing: border-box;
+main a {
+    color: #851944;
+}
+
+main p {
+    text-align: justify;
+    margin: 1em 0;
 }
 
 .navegacao-site {
-	text-align: center;
-	background-color: rgb(66, 109, 189);
-	color: #F2FFFC;
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1em;
 }
 
-.rodape {
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
+}
+
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
     padding: 1em;
@@ -54,97 +68,67 @@ blockquote {
     box-sizing: border-box;
 }
 
-main a {
-	color: #5258b1;
-}
-
-.navegacao-site a {
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-}
-
-.citacao-bio,
-.navegacao-site,
-.rodape {
-	padding: 20px;
-}
-
 .container {
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
-}
-
-.navegacao-site h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
+    width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
 }
 
 strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 em {
-	font-style: italic;
+    font-style: italic;
 }
 
-.subtitulo-texto {
-	font-size: 30px;
-	clear: both;
+.icones-redes-sociais li {
+    display: inline-block;
 }
 
-.icones-sociais li {
-	display: inline-block;
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
 }
 
-nav a {
-	text-transform: lowercase;
-}
-
-.icones-sociais a {
-	width: 40px;
-	height: 40px;
-	display: block;
-	text-indent: -9999px;
-}
-/* put the img on the css folder just to work it out organize later
-when the right adress is found*/
 .github {
-	background-image: url(github.png);
+    background-image: url(../imagens/github.png);
 }
 
 .twitter {
-	background-image: url(twitter.png);
+    background-image: url(../imagens/twitter.png);
 }
 
 .linkedin {
-	background-image: url(in.png);
+    background-image: url(../imagens/linkedin.png);
 }
 
 main {
-	float: left;
-	width: 85%;
-	padding-bottom: 80px;
+    width: 80%;
+    float: left;
+    padding-bottom: 4em;
 }
 
 .minha-foto,
 .navegacao-site {
-	float: right;
-	box-sizing: border-box;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-}
-
-.minha-foto {
-	width: 250px;
-	position: absolute;
-	top: 0;
-	right: 0;
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
+    box-sizing: border-box;
 }
 
 .navegacao-site {
-	width: 15%;
-	position: relative;
-	top: 325px;
+    width: 20%;
+    float: right;
+    position: relative;
+    top: 300px;
 }
 
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+}

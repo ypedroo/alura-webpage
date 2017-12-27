@@ -1,9 +1,3 @@
-.artigo {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
 .leia-mais {
     padding: .5em;
     margin: 1em;
@@ -11,4 +5,10 @@
     font-size: 1.5em;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+.post-blog {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
 }

@@ -21,7 +21,7 @@
     color: #000;
 }
 .saudacao em {
-    color: #194485;
+    color: #851944;
     font-size: 4em;
     -webkit-transform: rotate(-5deg) skew(-10deg);
             transform: rotate(-5deg) skew(-10deg);
@@ -29,7 +29,7 @@
 }
 .botao-index {
     font-size: 1.25em;
-    background-color: #194485;
+    background-color: #851944;
     color: #FFF;
     padding: .5em;
     border: .2em solid black;
@@ -47,7 +47,7 @@
     margin-bottom: .5em;
 }
 .trabalhos {
-    background-color: #194485;
+    background-color: #3C1D3D;
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
 }
@@ -67,10 +67,10 @@
     display: block;
 }
 .blog {
-    background-color: rgb(199, 199, 199);
+    background-color: #999;
     position: relative;
     color: #FFF;
-    border-bottom: .5em solid #194485;
+    border-bottom: .5em solid #851944;
 }
 .blog small {
     position: relative;
@@ -80,7 +80,7 @@
     width: 30%;
 }
 .blog li a {
-    color: rgb(76, 55, 153);
+    color: #FCF;
     padding: .5em;
     display: block;
 }
@@ -93,17 +93,12 @@ footer h2 {
     font-size: 3em;
 }
 footer a {
-    color: rgb(50, 147, 177);
+    color: #F99;
 }
 main {
     width: 100%;
     padding-bottom: 0;
     float: none;
-}
-p{
-    text-align: center;
-    font-size: 1rem;
-    margin: 0%;
 }
 html,body {
     overflow-x: hidden;
@@ -128,7 +123,7 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 400%;
-    color: rgb(15, 9, 12);
+    color: #D5447E;
     position: absolute;
 }
 .eficiencia {
@@ -245,5 +240,5 @@ body {
     background-color: #F2FFFC;
 }
 .blog .mais-recente a {
-    color: #194485;
+    color: #F26;
 }
