@@ -18,7 +18,7 @@ h1 {
 
 .titulo-principal {
     text-align: center;
-    background-color: #851944;
+    background-color: #194485;
     color: #FFF;
     padding: 2rem;
     border-bottom: .5rem solid #000;
@@ -30,7 +30,7 @@ h1 {
 }
 
 main a {
-    color: #851944;
+    color: #194485;
 }
 
 main p {
@@ -40,7 +40,7 @@ main p {
 
 .navegacao-site {
     text-align: center;
-    background-color: #3C1D3D;
+    background-color: #194485;
     color: #F2FFFC;
     padding: 1em;
 }
@@ -131,4 +131,5 @@ main {
     top: 0;
     right: 0;
     height: 300px;
+    width: 14em;
 }
