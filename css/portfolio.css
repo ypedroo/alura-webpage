@@ -1,6 +1,6 @@
 .portfolio li {
     display: inline-block;
-    border: .5em solid black;
+    border: .2em solid black;
     background-color: #FAFFFC;
     width: 45%;
     box-sizing: border-box;
@@ -10,5 +10,6 @@
 }
 
 .portfolio img {
+    box-shadow: 0 0 0 5px black;
     width: 100%;
 }
