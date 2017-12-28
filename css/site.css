@@ -58,8 +58,8 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
+    background-color: rgba(0, 0, 0, .3);
+    color: rgb(0, 0, 0);
     padding: 1em;
     clear: both;
     position: fixed;
