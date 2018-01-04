@@ -1,5 +1,5 @@
 .titulo-principal {
-    background-image: linear-gradient(to bottom, rgb(14, 3, 114), rgb(13, 87, 81), #888);
+    background-image: linear-gradient(to bottom, #100014, #380638, #888);
     background-size: 100% 500px;
     background-repeat: no-repeat;
     
@@ -35,7 +35,7 @@
 }
 
 .saudacao em {
-    color: #194485;
+    color: #210125;
     font-size: 4em;
     -webkit-transform: rotate(-5deg) skew(-10deg);
     transform: rotate(-5deg) skew(-10deg);
@@ -44,7 +44,7 @@
 
 .botao-index {
     font-size: 1.25em;
-    background-color: #194485;
+    background-color: #140514;
     color: #FFF;
     padding: .5em;
     border: .2em solid black;
@@ -131,7 +131,7 @@ footer h2 {
 }
 
 footer a {
-    color: rgb(153, 255, 207);
+    color: rgb(85, 136, 143);
 }
 
 main {
@@ -170,7 +170,7 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 400%;
-    color: rgb(25, 1, 31);
+    color: rgb(212, 211, 226);
     position: absolute;
 }
 
@@ -273,10 +273,6 @@ body {
     top: 0;
     right: 0;
     line-height: 1;
-    /* largura = 14em */
-    /* altura = 3.5em */
-    /* tx = .707 * h - .707 * w + w */
-    /* ty = -.707 * h */
     -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
     transform: translate(6.5765em, -2.4745em) rotate(45deg);
     -webkit-transform-origin: 0 0;
@@ -286,7 +282,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(45, 25, 83);
+    background-color: rgb(18, 2, 27);
     color: white;
     border: .25em solid black;
     font-size: 1.2em;
