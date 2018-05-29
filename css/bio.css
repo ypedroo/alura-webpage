@@ -31,3 +31,24 @@ blockquote:nth-of-type(odd) {
     float: right;
     margin-right: 0;
 }
+
+.container > p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+    line-height: 1;
+}
+
+.citacao-bio::before {
+    content: '“';
+    position: absolute;
+    font-size: 10em;
+    color: #bbb;
+    line-height: .8;
+}
+
+.citacao-bio > p {
+    position: relative;
+}
