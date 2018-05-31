@@ -1,5 +1,6 @@
 /* Podemos usar um seletor de atributo para selecionar
    apenas a legenda desse campo e não dos outros */
+
 legend,
 label[for="mensagem"] {
   font-weight: bold;
@@ -8,11 +9,13 @@ label[for="mensagem"] {
 
 /* As tags <label> que têm o atributo "for" são
    os rótulos dos campos sem ser os assuntos */
+
 label[for] {
   display: block;
 }
 
 /* Selecionamos apenas os campos de texto */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -27,16 +30,19 @@ textarea {
 }
 
 /* alguns ajustes para o campo "Outro": deixar ele na mesma linha dos outros assuntos */
-fieldset > fieldset {
+
+fieldset>fieldset {
   display: inline;
 }
 
 /* deixar o rótulo dele inline de novo */
+
 label[for="outro"] {
   display: inline;
 }
 
 /* deixar só esse campo sem ocupar a tela toda */
+
 input[name="outro-assunto"] {
   width: auto;
 }
@@ -69,9 +75,30 @@ button:focus {
   background-color: #8c1d3d;
 }
 
-input[value="outro"] ~ input {
-    display: none;
+input[value="outro"]~input {
+  display: none;
 }
-input[value="outro"]:checked ~ input {
-    display: inline;
+
+input[value="outro"]:checked~input {
+  display: inline;
+}
+
+label[for="nome"]::after {
+  content: "";
+  background-color: rgb(87, 87, 87);
+  background-repeat: repeat;
+  background-image: url(../imagens//usuario.png);
+  background-size: 50% 50%;
+  background-position: center;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+#nome {
+  width: calc(100%-2em);
+  position: relative;
+  left: 2em;
 }
