@@ -270,9 +270,9 @@ body {
     top: 0;
     right: 0;
     line-height: 1;
-    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    /* -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
     transform: translate(6.5765em, -2.4745em) rotate(45deg);
-    -webkit-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; */
     transform-origin: 0 0;
     width: 14em;
     padding: 1em 0;
@@ -284,6 +284,8 @@ body {
     border: .25em solid black;
     font-size: 1.2em;
     font-family: "Open Sans Condensed", sans-serif;
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+
 }
 
 .blog .inicio-post {
@@ -314,3 +316,5 @@ body {
     .blog .mais-recente a {
     color: rgb(132, 133, 219);
     }
+
+    
