@@ -52,3 +52,38 @@ blockquote:nth-of-type(odd) {
 .citacao-bio > p {
     position: relative;
 }
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades thead th {
+    background-color: rgba(156, 197, 197, 0.8);
+    
+}
+
+.habilidades th {
+    border: 5px solid black;
+    background-color: rgba(88, 187, 141, 0.8);
+}
+
+.habilidades td {
+    background-color: lightseagreen;
+    border: 5px solid black;
+}
+
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+
+.habilidades [rowspan] {
+    vertical-align: middle;
+}
