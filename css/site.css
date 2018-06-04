@@ -3,6 +3,8 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -51,6 +53,7 @@ main p {
     background-color: #100014;
     color: #F2FFFC;
     padding: 1em;
+    padding-top: calc(300px + 1em);
 }
 
 .navegacao-site a:hover,
@@ -146,8 +149,9 @@ em {
 
 main {
     width: calc(100% - 0.9 * 300px);
-    float: left;
+    /* float: left; */
     padding-bottom: 4em;
+    flex-grow: 1;
 }
 
 .minha-foto,
@@ -159,9 +163,10 @@ main {
 
 .navegacao-site {
     width: calc(0.9 * 300px);
-    float: right;
+    padding-top: calc(300px + 1em);
+    /* float: right; 
     position: relative;
-    top: 300px;
+    top: 300px; */
 }
 
 .minha-foto {
@@ -170,4 +175,5 @@ main {
     right: 0;
     height: 300px;
     width: 14.1em;
+    border-bottom: .5em solid black;
 }
